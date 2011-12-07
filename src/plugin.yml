@@ -1,0 +1,28 @@
+name: UndeadsNight
+main: me.weyzohorth.UndeadsNight.UndeadsNight
+version: 1.0
+author: weyzohorth
+commands:
+    help:
+        usage: /<command>
+        aliases: []
+    undeadsSleep:
+        description: Undeads go back to their sleep
+        usage: /sleep
+        aliases: ['UndeadsSleep', 'UndeadSleep', 'Sleep', 'us']
+    isUndeadsNight:
+        description: start the undeads' night
+        usage: /night
+        aliases: ['UndeadsNight', 'UndeadNight', 'un', 'Undead', 'Night']
+    UNSpawn:
+        description: manage values to control mobs' spawning rate
+        usage: /spawn help
+        aliases: ['UndeadsNightSpawn', 'UndeadNightSpawn', 'UNSpawn', 'Spawn', 'uns']
+    UNLightning:
+        description: manage values to control Undeads Night 
+        usage: /lightning help
+        aliases: ['UndeadsNightLightning', 'UndeadNightLightning', 'UNLightning', 'Lightning', 'unl']
+    UNBurning:
+        description: manage the burning effect due to sunlight on mobs
+        usage: /burning help
+        aliases: ['UndeadsBurning', 'UndeadBurning', 'UBurning', 'Burning', 'ub']
